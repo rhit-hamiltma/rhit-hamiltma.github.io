@@ -1,17 +1,20 @@
 
 <html>
     <link rel="stylesheet" href="style.css">
-	<head>
+    	<head>
+        <script src="script.js"> </script>
 		<title>Matthew Hamilton Career Portfolio</title>
 	</head>
 <body>
-    <h1>
+    <center>
+    <h1 id="Name">
         Matthew Hamilton
     </h1>
     <img src="./public/DSC_8749.jpg" alt="An professional image of Matthew Hamilton" id="professional-photo">
-    <button id="resumeButton"></button>
-    <a href = "portfolio.html" alt="Link to the portfolio page">Portfolio Page</a>
-    <p id ="Resume">
+    <button id="resumeButton">Resume</button>
+    <button id="portfolioButton">Portfolio</button>
+
+    <div id ="Resume">
         <h1>Resume</h1>
         <h2>Technological Proficiencies</h2>
         <ul>
@@ -39,6 +42,21 @@
             <li>Sixth Form : <strong>Bury Grammar Sixth Form, UK</strong></li>
             <li>College <i>Current</i> : <strong>Rose-Hulman Institute of Technology, Indiana</strong></li>
         </ul>
-    </p>
+    </div>
+    <div id ="Portfolio">
+        <h1>Projects</h1>
+            <h2>Soccer Simulator</h2>
+            <img src="./public/4231.PNG">
+            <p>
+                <br>
+                This project involved using object-oriented C# code to make a simulator of a full soccer game. It uses inheritance to help achieve this purpose.
+            </p>
+            
+    </div>
+    </center>
+    <footer id = "links">
+        <a href="https://rose-hulman.joinhandshake.com/profiles/mutgj4">Handshake</a>
+        <a href="https://www.linkedin.com/in/matthew-hamilton-rhit/">LinkedIn</a>
+    </footer>
 </body>
 </html>
